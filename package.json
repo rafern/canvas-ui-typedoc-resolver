@@ -8,6 +8,10 @@
   "scripts": {
     "build": "tsc"
   },
+  "files": [
+    "lib",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafern/canvas-ui-typedoc-resolver.git"
