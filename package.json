@@ -1,5 +1,5 @@
 {
-  "name": "canvas-ui-typedoc-resolver",
+  "name": "@rafern/canvas-ui-typedoc-resolver",
   "version": "1.0.0",
   "description": "A TypeDoc plugin that resolves external references to the canvas-ui documentation",
   "main": "./lib/index.js",
