@@ -1,0 +1,41 @@
+{
+  "name": "canvas-ui-typedoc-resolver",
+  "version": "1.0.0",
+  "description": "A TypeDoc plugin that resolves external references to the canvas-ui documentation",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafern/canvas-ui-typedoc-resolver.git"
+  },
+  "keywords": [
+    "ui",
+    "typescript",
+    "canvas",
+    "documentation",
+    "typedoc",
+    "typedoc-plugin"
+  ],
+  "author": "rafern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafern/canvas-ui-typedoc-resolver/issues"
+  },
+  "homepage": "https://github.com/rafern/canvas-ui-typedoc-resolver#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "typedoc": "^0.23.10",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "typedoc": "0.23.x",
+    "typescript": "4.x"
+  },
+  "dependencies": {
+    "resolve-package-path": "^4.0.3"
+  }
+}
