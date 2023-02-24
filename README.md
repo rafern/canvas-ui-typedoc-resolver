@@ -1,3 +1,7 @@
+# WARNING
+
+This library has been generalised to a new library, `typedoc-plugin-external-resolver`, after the `canvas-ui` rename. The new library can be found [here](https://github.com/rafern/typedoc-plugin-external-resolver).
+
 # canvas-ui-typedoc-resolver
 
 Resolves TypeDoc third-party symbols to
